@@ -1,0 +1,29 @@
+
+.menu {
+    width: 100%;
+    height: 64px;
+    background: #fff;
+
+}
+
+.header {
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+}
+
+.logo img {
+    object-fit: contain;
+
+    height: 64px;
+    margin-right: auto;
+
+}
+
+.dropdown-menu {
+    margin-left: auto;
+}
+

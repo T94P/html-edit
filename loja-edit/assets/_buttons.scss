@@ -1,0 +1,26 @@
+.button-one {
+    padding:15px 20px 15px 20px;
+    background-color: #FCED70;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    margin-top: 2vh;
+    
+}
+
+
+.button-two{
+    background-color: #514F4D;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 15px 20px 15px 20px;
+
+}
+
+.button-one:hover {
+    cursor: pointer;
+}
+
+.button-two:hover {
+    cursor: pointer;
+}

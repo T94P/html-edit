@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Responsive</title>
+		<link rel="stylesheet" href="./styles.css" />
+		<link rel="stylesheet" href="./reset.css" />
+	</head>
+	<body>
+
+		<main>
+			<section>
+
+			
+						<div class="menu">
+							<button class="menu__link">Arts</button>
+							<button class="menu__link menu__link--active">Fashion</button>
+							<button class="menu__link">Sports</button>
+							<button class="menu__link menu__link--disabled">Music</button>
+							<button class="menu__link">Shopping</button>
+
+						</div>
+		
+
+		<div class="cards">
+			<div class="card-one">
+				<div class="backdrop">
+					<img class="card__thumbnail" src="assets/backdrop.avif" alt="card-image" />
+				</div>
+				
+
+				<div class="content-card">
+					<div class="content-card-header">
+						<span class="header">Category</span>
+						<span>2 min reading</span>
+					</div>
+
+						<h4 class="card__title alternate-font">Designer Q&A with Meg Gleason</h1>
+
+						<span class="card__date">January, 2023</span>
+
+					
+						<p class="card__description card__description--clamp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni libero corporis autem sunt fuga, deserunt animi dolor quo nemo, possimus cumque soluta hic ut maxime iste iusto earum nisi illo.
+					ro mollitia voluptas accusamus fugit nesciunt, sit cum aliquam atque similique ex adipisci dolores officia dignissimos ea numquam illum animi accusantium explicabo odit maiores perspiciatis praesentium cumque esse? Porro, suscipit.</p>
+					
+
+					<div class="content-card-footer">
+						<span class="extend">Read More</span>
+						<span>234 following</span>
+					</div>
+				</div>
+			</div>
+			
+
+			<div class="card-one">
+				<div class="backdrop">
+					<img class="card__thumbnail" src="assets/backdrop.avif" alt="card-image" />
+				</div>
+				<div class="content-card">
+					<div class="content-card-header">
+						<span class="header">Category</span>
+						<span>2 min reading</span>
+					</div>
+
+						<h4 class="card__title alternate-font">Designer Q&A with Meg Gleason</h1>
+
+						<span class="card__date">January, 2023</span>
+
+					
+						<p class="card__description card__description--clamp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni libero corporis autem sunt fuga, deserunt animi dolor quo nemo, possimus cumque soluta hic ut maxime iste iusto earum nisi illo.
+					ro mollitia voluptas accusamus fugit nesciunt, sit cum aliquam atque similique ex adipisci dolores officia dignissimos ea numquam illum animi accusantium explicabo odit maiores perspiciatis praesentium cumque esse? Porro, suscipit.</p>
+					
+
+					<div class="content-card-footer">
+						<span class="extend">Read More</span>
+						<span>234 following</span>
+					</div>
+				</div>
+			</div>
+			
+
+			<div class="card-one">
+				<div class="backdrop">
+					<img class="card__thumbnail" src="assets/backdrop.avif" alt="card-image" />
+				</div>
+				<div class="content-card">
+					<div class="content-card-header">
+						<span class="header">Category</span>
+						<span>2 min reading</span>
+					</div>
+
+						<h4 class="card__title alternate-font">Designer Q&A with Meg Gleason</h1>
+
+						<span class="card__date">January, 2023</span>
+
+					
+						<p class="card__description card__description--clamp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni libero corporis autem sunt fuga, deserunt animi dolor quo nemo, possimus cumque soluta hic ut maxime iste iusto earum nisi illo.
+					ro mollitia voluptas accusamus fugit nesciunt, sit cum aliquam atque similique ex adipisci dolores officia dignissimos ea numquam illum animi accusantium explicabo odit maiores perspiciatis praesentium cumque esse? Porro, suscipit.</p>
+					
+
+					<div class="content-card-footer">
+						<span class="extend">Read More</span>
+						<span>234 following</span>
+					</div>
+				</div>
+			</div>
+			
+
+			<div class="card-one">
+				<div class="backdrop">
+					<img class="card__thumbnail" src="assets/backdrop.avif" alt="card-image" />
+				</div>
+				<div class="content-card">
+					<div class="content-card-header">
+						<span class="header">Category</span>
+						<span>2 min reading</span>
+					</div>
+
+						<h4 class="card__title alternate-font">Designer Q&A with Meg Gleason</h1>
+
+						<span class="card__date">January, 2023</span>
+
+					
+						<p class="card__description card__description--clamp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni libero corporis autem sunt fuga, deserunt animi dolor quo nemo, possimus cumque soluta hic ut maxime iste iusto earum nisi illo.
+					ro mollitia voluptas accusamus fugit nesciunt, sit cum aliquam atque similique ex adipisci dolores officia dignissimos ea numquam illum animi accusantium explicabo odit maiores perspiciatis praesentium cumque esse? Porro, suscipit.</p>
+					
+
+					<div class="content-card-footer">
+						<span class="extend">Read More</span>
+						<span>234 following</span>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+
+	</section>
+	</main>
+
+
+			
+
+	</body>
+
+	<script>
+		const readMore = document.querySelector(".extend");
+		const description = document.querySelector(".card__description");
+
+		readMore.addEventListener("click", () => {
+			description.classList.remove("card__description--clamp");
+		});
+	</script>
+
+</html>

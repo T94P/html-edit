@@ -1,0 +1,46 @@
+
+$gap: 60px;
+
+.carousel-container-wrapper{
+    overflow: hidden;
+}
+
+
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+    overflow-x: auto; 
+    width: 100vw;
+}
+
+.carousel-images {
+    display: flex; 
+    gap: $gap;
+    margin:20px;
+}
+
+.carousel-images::-webkit-scrollbar {
+    width: 0.5em;
+     display: none;
+}
+
+.carousel-images::-webkit-scrollbar-track {
+    background-color: #f5f5f5; 
+
+}
+.carousel-images::-webkit-scrollbar-thumb {
+    background-color: #bbb6b6f3;
+}
+
+.carousel-image {
+   max-width: 100px;
+   max-height: 300px;
+   
+
+}
+    .carousel-image img {
+        max-width:150px;
+        height: 250px;
+        object-fit: cover;
+        overflow: hidden;
+    }

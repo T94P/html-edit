@@ -1,0 +1,23 @@
+.text-section {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    margin: 25px 0px 50px 0px;
+    max-width:1200px;
+}
+
+.top-text-section{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.bottom-text-section {
+    display:flex;
+    flex-direction: row;
+    gap:100px;
+}
+
+.bottom-block {
+    line-height: 2vh;
+}

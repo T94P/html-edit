@@ -1,0 +1,36 @@
+.footer {
+    background-color:#131313 ;
+    color: #fff;
+    padding: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-section-wrapper{
+    padding: 10px;
+}
+
+.footer-section{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+    line-height: 3vh;
+
+}
+
+.footer-section-copyright {
+     padding:10px;
+     font-size: smaller;
+     font-weight: lighter;
+     line-height: 2vh;
+   
+}
+
+.copyright-terms{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4vh;
+}

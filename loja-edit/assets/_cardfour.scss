@@ -1,0 +1,33 @@
+
+$gap: 20px;
+
+
+.card-four-container-wrapper{
+    overflow: hidden;
+}
+
+.card-four-container {
+    overflow: hidden;
+    position: relative;
+    overflow-x: auto; 
+    width: 100vw;
+}
+
+.card-four-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: $gap;
+    margin: 5px;
+}
+
+.card-four-image {
+    aspect-ratio: 1;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.card-four-image img {
+    max-width: 200px;
+    max-height: 200px;
+}

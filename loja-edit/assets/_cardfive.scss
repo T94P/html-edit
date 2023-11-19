@@ -1,0 +1,25 @@
+.card-five-container {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+padding: 5px 5px 40px 5px;
+}
+
+.video-container {
+margin: 0 auto;    
+max-height: 400px;
+
+}
+
+
+
+.background-video {
+    max-width: 420px;
+
+}
+
+.card-five-container .h2{
+    margin-top: 1vh;
+}

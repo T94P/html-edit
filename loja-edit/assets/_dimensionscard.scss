@@ -1,0 +1,22 @@
+.dimensions-card {
+display: flex;
+max-width: 100%;
+gap:100px;
+
+}
+
+.dimensions-card-left {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.specifications-table {
+    line-height: 3vh;
+
+}
+
+.img-specifications-container {
+    margin:0;
+}

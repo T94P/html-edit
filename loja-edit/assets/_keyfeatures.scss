@@ -1,0 +1,26 @@
+
+.key-features {
+    max-width:1200px;
+}
+
+.key-features-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.key-feature-icons {
+    display: flex;
+    align-items: center;
+    max-width:100%;
+    gap:20px;
+
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 auto;
+    max-width: 20%;
+    box-sizing: border-box;
+}

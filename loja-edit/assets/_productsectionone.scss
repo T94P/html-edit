@@ -1,0 +1,73 @@
+
+
+
+.nomad-section-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.nomad-section-one-left {
+    flex: 0 0 60%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.nomad-section-one-left h1 {
+    font-size: 1.2rem;
+}
+
+.nomad-section-one-img-container {
+margin:0;
+}
+
+
+.nomad-section-one-img-container .nomad-page-two-img-one {
+    max-width:100%;
+}
+
+.nomad-section-one-right {
+    flex: 0 0 40%; 
+    margin: 25px -25px 10vh 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:5px;
+
+}
+
+
+.color-options {
+    display: flex;
+    gap: 10px;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.color.blue { background: #011F89; }
+.color.orange { background: #3D8901; }
+.color.red { background: #890109; }
+.color.green { background: #3D8901; }
+.color.brown { background: #131313; }
+.color.black { background: #131313; }
+
+.checklist {
+    max-width: 620px;
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
